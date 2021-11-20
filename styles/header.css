@@ -1,0 +1,19 @@
+
+.navbar {
+  background-color: white !important;
+  padding: 0 1.5%;
+}
+
+.navbar-brand {
+  margin-left: 2%;
+}
+
+.nav-item {
+  font-size: larger;
+  padding: 0 5px 0 5px;
+}
+
+.navbar-collapse {
+  margin-right: 2%;
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,41 @@
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-size: large;
+}
+
+.div-text {
+  text-align: center;
+}
+
+.span-link {
+  text-decoration: none; 
+}
+
+.btn-gradient {
+  color: white;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#EA8634, #EB5B35);
+  transition: background 0.5s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#e98533, #f53905);
+  color: white;
+}
+
+.container-slap {
+  background: linear-gradient(to left, #fb7809, #f7f5f5ee );
+  border-radius: 20px;
+}
+
+@media (min-width: 994px) {
+  .div-text {
+    text-align: left;
+  }  
+}

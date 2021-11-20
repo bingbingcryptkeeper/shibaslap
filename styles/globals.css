@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500;600;700&display=swap');
+
+h1, h2, p, a {
+  font-family: Genos;
+}
+
+.section {
+  padding-bottom: 100px;
+  position: relative;
+}
