@@ -2,6 +2,20 @@
   justify-content: space-evenly;
 }
 
+.mb-5 {
+  margin-top: 1rem;
+  margin-bottom: 2rem !important;
+}
+
 .service-card {
   text-align: center;
+}
+
+.text-tokenomics {
+  color:#FB943E;
+}
+
+.svg-tokenomics {
+  height: 48px;
+  width: 48px;
 }
