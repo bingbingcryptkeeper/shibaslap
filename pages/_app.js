@@ -4,6 +4,7 @@ import '../styles/globals.css';
 import '../styles/header.css';
 import '../styles/hero.css';
 import '../styles/tokenomics.css';
+import '../styles/reflections.css';
 
 function ShibaSwap({ Component, pageProps }) {
   return <Component {...pageProps} />

@@ -1,0 +1,16 @@
+
+.reflections {
+  margin: 0 15%;
+}
+
+.reflections-div {
+  padding-bottom: 50px;
+}
+
+.reflections-header {
+  text-align: center;
+}
+
+iframe {
+  height: 600px;
+}
