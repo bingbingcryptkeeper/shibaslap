@@ -9,15 +9,15 @@ class Community extends React.Component {
   }
 
   communityUpper = [
-    { name: "Cal", avatar: "placeholder.gif", desc: "Dev & marketing", telegram: "@Slapmaster" },
-    { name: "Josh", avatar: "placeholder.gif", desc: "Dev & marketing", telegram: "@Thisisnotatestmeme" },
+    { name: "Cal", avatar: "placeholder.gif", desc: "Dev & Marketing", telegram: "@Slapmaster" },
+    { name: "Josh", avatar: "placeholder.gif", desc: "Dev & Marketing", telegram: "@Thisisnotatestmeme" },
   ];
 
   
   communityLower = [
-    { name: "Jesse", avatar: "jesseavatar.jpg", desc: "Community & marketing",  telegram: "@HitEmWitaPoopSok" },
-    { name: "bingbingbongbing", avatar: "bingbingavatar.png", desc: "Web dev & design",  telegram: "@bingbingcryptkeeper" },
-    { name: "Gizzard Biscuit", avatar: "placeholder.gif", desc: "Community & marketing",  telegram: "@Gizzard Biscuit" },
+    { name: "Jesse", avatar: "jesseavatar.jpg", desc: "Community & Marketing",  telegram: "@HitEmWitaPoopSok" },
+    { name: "bingbingbongbing", avatar: "bingbingavatar.png", desc: "Web Dev & Design",  telegram: "@bingbingcryptkeeper" },
+    { name: "Gizzard Biscuit", avatar: "placeholder.gif", desc: "Community & Marketing",  telegram: "@Gizzard Biscuit" },
   ];
 
 
@@ -32,7 +32,6 @@ class Community extends React.Component {
         <Container>
           <div className="header">
             <h1>Community Slappers</h1>
-            <p>We're the slappers slapping off 0's every day for you</p>
           </div>
           <div className="community-wrapper">
             <div className="community-upper">
