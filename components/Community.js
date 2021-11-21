@@ -37,7 +37,7 @@ class Community extends React.Component {
           <div className="community-wrapper">
             <div className="community-upper">
               {this.communityUpper.map((member, key) => (
-                <div className="community-card">
+                <div className="community-card pulse">
                   <div class="card-trip">
                     <div class="card-avatar">
                       <Image
@@ -63,7 +63,7 @@ class Community extends React.Component {
             </div>
             <div className="community-lower">
               {this.communityLower.map((member, key) => (
-                <div className="community-card">
+                <div className="community-card pulse">
                   <div class="card-trip">
                     <div class="card-avatar">
                       <Image

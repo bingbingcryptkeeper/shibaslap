@@ -62,6 +62,16 @@ div.container {
   width: 40px;
 }
 
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
 
 @media (min-width: 100px) and (max-width: 1040px) {
   .community-upper {
