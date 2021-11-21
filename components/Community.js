@@ -15,7 +15,7 @@ class Community extends React.Component {
 
   
   communityLower = [
-    { name: "Jesse", avatar: "placeholder.gif", desc: "Community & marketing",  telegram: "@HitEmWitaPoopSok" },
+    { name: "Jesse", avatar: "jesseavatar.jpg", desc: "Community & marketing",  telegram: "@HitEmWitaPoopSok" },
     { name: "bingbingbongbing", avatar: "bingbingavatar.png", desc: "Web dev & design",  telegram: "@bingbingcryptkeeper" },
     { name: "Gizzard Biscuit", avatar: "placeholder.gif", desc: "Community & marketing",  telegram: "@Gizzard Biscuit" },
   ];
