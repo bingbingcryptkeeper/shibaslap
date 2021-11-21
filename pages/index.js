@@ -5,6 +5,8 @@ import Hero from "../components/Hero";
 import Tokenomics from "../components/Tokenomics";
 import Footer from "../components/footer";
 import Reflections from "../components/Reflection";
+import Script from 'next/script'
+
 
 const Index = () => {
   return (
@@ -14,6 +16,21 @@ const Index = () => {
       <Tokenomics />
       <Reflections />
       <Footer />
+      <div class="container">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-K0TEWSKYGF"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-K0TEWSKYGF');
+        `}
+      </Script>
+    </div>
     </Layout>
   )
 }
