@@ -6,6 +6,7 @@ import Tokenomics from "../components/Tokenomics";
 import Footer from "../components/footer";
 import Reflections from "../components/Reflection";
 import Script from 'next/script'
+import Community from "../components/Community";
 
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Hero />
       <Tokenomics />
       <Reflections />
+      <Community />
       <Footer />
       <div class="container">
       <Script

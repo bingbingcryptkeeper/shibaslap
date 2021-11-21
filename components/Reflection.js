@@ -4,7 +4,7 @@ const Reflections = () => {
  
   return (
     <section className="reflections section">
-      <div className="reflections-header">
+      <div className="header">
         <h1>
           Reflections Tracker
         </h1>

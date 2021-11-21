@@ -1,0 +1,75 @@
+
+div.container {
+  text-align: center;
+}
+
+
+.community-upper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  margin: 0% 10%;
+}
+
+.community-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 20px 0;
+}
+
+.community-card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 0 5%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.shib-avatar {
+  border-radius: 20px;
+}
+
+.card-avatar {
+  margin-top: 20px;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 17px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  text-align: center;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+@media (min-width: 100px) and (max-width: 1040px) {
+  .community-upper {
+    grid-template-columns: 1fr;
+    margin: unset;
+  }
+  .community-lower {
+    grid-template-columns: 1fr;
+  }
+}
+

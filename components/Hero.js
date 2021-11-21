@@ -42,7 +42,7 @@ class Hero extends React.Component {
                 src="/images/shibaslaplogo.png" // Route of the image file
                 height={546} // Desired size with correct aspect ratio
                 width={546} // Desired size with correct aspect ratio
-                alt="Your Name"
+                alt="Shib Crypto Slap DogeBonk"
               />
               </div>
             </Col>
