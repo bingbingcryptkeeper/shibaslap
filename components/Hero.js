@@ -16,7 +16,7 @@ class Hero extends React.Component {
   
   render() {
     return (
-      <section className="section position-relative">
+      <section id="hero-section" className="section position-relative">
         <Container className="container-slap">
           <Row className="align-items-center">
             <Col lg={6}>

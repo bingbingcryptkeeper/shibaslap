@@ -11,6 +11,10 @@ p {
   font-size: 4.5rem !important;
 }
 
+#hero-section {
+  padding-bottom: 0;
+}
+
 .div-text {
   text-align: center;
 }

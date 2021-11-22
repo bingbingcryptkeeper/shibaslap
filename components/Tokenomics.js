@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock, faTimesCircle, faParachuteBox, faMoneyBillAlt, faFish } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image'
 
 
 const Tokenomics = () => {
@@ -21,6 +22,13 @@ const Tokenomics = () => {
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
+              <Image 
+                className='shib-slap'
+                src="/images/slaplogo1.png" // Route of the image file
+                height={300} // Desired size with correct aspect ratio
+                width={300} // Desired size with correct aspect ratio
+                alt="Shib Crypto Slap DogeBonk"
+              />
               <h3 className="font-weight-normal text-dark"><span className="text-tokenomics">Tokenomics</span></h3>
               <p className="text-muted">Our tokenomics are safe, sound, secure and RENOUNCED. You can be assured that your investment will be fine for decades to come.</p>
             </div>
