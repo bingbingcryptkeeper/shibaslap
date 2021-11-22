@@ -7,6 +7,10 @@ p {
   font-size: large;
 }
 
+.hero-header {
+  font-size: 4.5rem !important;
+}
+
 .div-text {
   text-align: center;
 }
