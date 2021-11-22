@@ -4,6 +4,9 @@ h1, h2, p, a {
   font-family: Genos;
 }
 
+.header {
+  padding-bottom: 20px;
+}
 
 .header {
   text-align: center;

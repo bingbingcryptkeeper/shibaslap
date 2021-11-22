@@ -5,7 +5,8 @@ import '../styles/header.css';
 import '../styles/hero.css';
 import '../styles/tokenomics.css';
 import '../styles/reflections.css';
-import '../styles/community.css'
+import '../styles/community.css';
+import '../styles/docs.css'
 
 function ShibaSwap({ Component, pageProps }) {
   return <Component {...pageProps} />
