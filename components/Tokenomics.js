@@ -10,7 +10,7 @@ const Tokenomics = () => {
     { title : "Renounced Ownership", desc : "With ownership renounced there can be no manipulation of tax fees or anything else.", icon: faTimesCircle },
   ]
   const lowerServices = [
-    { title : "Supply", desc : " 1,000,000,000,000,000 made, 4,00,000,000,000,000 (40% Burned)", icon: faParachuteBox },
+    { title : "Supply", desc : " 1,000,000,000,000,000 made, 400,000,000,000,000 (40% Burned)", icon: faParachuteBox },
     { title : "Low Tax", desc : "5% fee on each tx, distributed to all holders, 5% fee on each tx, added to the liquidity pool.", icon: faMoneyBillAlt },
     { title : "Whale Proof", desc : "1%  Maximum Transaction to stop the whales from dumping", icon: faFish },
   ]
