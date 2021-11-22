@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { whitepaper } from 'files/whitepaper.pdf'
-import { faLock } from '@fortawesome/free-solid-svg-icons';
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
 class Docs extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Docs extends React.Component {
                 <div className="mb-5">
                   <FontAwesomeIcon
                     className="svg-tokenomics"
-                    icon={faLock}
+                    icon={faFileAlt}
                     color="#FB943E"
                   />
                 </div>
