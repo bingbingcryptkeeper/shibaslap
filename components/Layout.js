@@ -13,6 +13,7 @@ const Layout = (props) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <link rel='icon' href='images/favicon.png' />
       </Head>
       <div>
         {props.children}
