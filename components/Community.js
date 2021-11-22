@@ -9,7 +9,7 @@ class Community extends React.Component {
   }
 
   communityUpper = [
-    { name: "Cal", avatar: "placeholder.gif", desc: "Dev & Marketing", telegram: "@Slapmaster" },
+    { name: "Cal", avatar: "calavatar.jpg", desc: "Dev & Marketing", telegram: "@Slapmaster" },
     { name: "Josh", avatar: "joshavatar.jpg", desc: "Dev & Marketing", telegram: "@Thisisnotatestmeme" },
   ];
 
