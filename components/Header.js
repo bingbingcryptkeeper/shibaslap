@@ -33,7 +33,7 @@ export default class Header extends React.Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">
             <Image
-              src="/images/shibaslaplogo.png" // Route of the image file
+              src="/images/slaplogo1.png" // Route of the image file
               height={144} // Desired size with correct aspect ratio
               width={144} // Desired size with correct aspect ratio
               alt="Your Name"
