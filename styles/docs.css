@@ -2,7 +2,7 @@
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .docs-cards {
@@ -12,5 +12,12 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   border-radius: 20px;
+  margin: 15px;
   padding: 30px 50px;
+}
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
 }

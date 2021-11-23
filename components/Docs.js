@@ -36,6 +36,25 @@ class Docs extends React.Component {
                 </h5>
               </div>
             </a>
+            <a 
+              href='files/shibaslapflier.pdf'
+              alt="alt text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="docs-cards">
+                <div className="mb-5">
+                  <FontAwesomeIcon
+                    className="svg-tokenomics"
+                    icon={faFileAlt}
+                    color="#FB943E"
+                  />
+                </div>
+                <h5 className="text-dark font-weight-normal pt-1 mb-4">
+                  Flier
+                </h5>
+              </div>
+            </a>
           </div>
         </Container>
       </section>
