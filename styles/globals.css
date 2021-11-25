@@ -16,3 +16,9 @@ h1, h2, p, a {
   padding-bottom: 100px;
   position: relative;
 }
+
+.pubic-rubic {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}

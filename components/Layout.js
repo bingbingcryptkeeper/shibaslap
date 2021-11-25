@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 const Layout = (props) => {
   return (
@@ -13,6 +13,7 @@ const Layout = (props) => {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
         <link rel="icon" href="images/favicon.png" />
+        <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script>
       </Head>
       <div>{props.children}</div>
     </div>

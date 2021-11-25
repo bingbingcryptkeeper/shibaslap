@@ -8,6 +8,8 @@ class Hero extends React.Component {
     this.state = { slapper: 'shibaslaplogo' }
   }
   
+
+
   downMousy = (e) => {
     this.setState({ slapper: 'shibaslaplogoslapped' })
     const shibSlap = new Audio('/sounds/baffe.wav')
@@ -46,6 +48,8 @@ class Hero extends React.Component {
                 className={`shib-slap ${slapper ? 'slapper' : ''}`}
                 onMouseDown={this.downMousy}
                 onMouseUp={this.upMousy}
+                onTouchStart={this.downMousy}
+                onTouchEnd={this.upMousy}
                 onAnimationEnd={() => this.setState({ slapper: false })}
                 src={`/images/${this.state.slapper}.png`} // Route of the image file
                 height={546} // Desired size with correct aspect ratio

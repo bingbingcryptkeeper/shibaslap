@@ -1,4 +1,4 @@
-
+import React, {useEffect} from 'react';
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -11,10 +11,41 @@ import Docs from "../components/Docs";
 
 
 const Index = () => {
+  useEffect(() => {
+    if (process.browser) {
+      var configuration = {
+        from: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        to: "0xBC30d59aFF36D7AdE2faF8152fb1a66757410fEE",
+        fromChain: "BSC",
+        toChain: "BSC",
+        amount: 1,
+        iframe: "flex",
+        hideSelectionFrom: false,
+        hideSelectionTo: true,
+        theme: "dark",
+        background: "#FFFFFF",
+        injectTokens: {
+          bsc: [
+            "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "0xBC30d59aFF36D7AdE2faF8152fb1a66757410fEE"
+          ]
+        }
+      }
+
+      // prevent accidental changes to the object, for example, when re-creating a widget for another theme
+      Object.freeze(configuration);
+
+      // create widget
+      rubicWidget.init(configuration);
+    }
+  });
   return (
     <Layout pageTitle="Shiba Slap">
       <Header />
       <Hero />
+      <section className="pubic-rubic">
+        <div id="rubic-widget-root"></div>
+      </section>
       <Tokenomics />
       <Reflections />
       <Community />
