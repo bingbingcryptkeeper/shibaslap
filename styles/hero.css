@@ -44,10 +44,6 @@ a:hover {
   cursor: pointer;
 }
 
-.slapper {
-  animation: slapper .25s;
-}
-
 .btn-gradient:hover {
   background: linear-gradient(#e98533, #f53905);
   color: white;
@@ -62,13 +58,4 @@ a:hover {
   .div-text {
     text-align: left;
   }  
-}
-
-@keyframes slapper {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.25);
-  }
 }

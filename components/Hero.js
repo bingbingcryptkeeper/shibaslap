@@ -5,14 +5,17 @@ import { Container, Row, Col } from 'reactstrap';
 class Hero extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { slapper: false }
+    this.state = { slapper: 'shibaslaplogo' }
   }
   
-  
-  handleClick = (e) => {
-    this.setState({ slapper: true })
+  downMousy = (e) => {
+    this.setState({ slapper: 'shibaslaplogoslapped' })
     const shibSlap = new Audio('/sounds/baffe.wav')
     shibSlap.play()
+  }
+
+  upMousy = (e) => {
+    this.setState({ slapper: 'shibaslaplogo' })
   }
   
   render() {
@@ -41,9 +44,10 @@ class Hero extends React.Component {
               <div className="mt-5 mt-lg-0" >
               <Image
                 className={`shib-slap ${slapper ? 'slapper' : ''}`}
-                onClick={this.handleClick}
+                onMouseDown={this.downMousy}
+                onMouseUp={this.upMousy}
                 onAnimationEnd={() => this.setState({ slapper: false })}
-                src="/images/shibaslaplogo.png" // Route of the image file
+                src={`/images/${this.state.slapper}.png`} // Route of the image file
                 height={546} // Desired size with correct aspect ratio
                 width={546} // Desired size with correct aspect ratio
                 alt="Shib Crypto Slap DogeBonk"

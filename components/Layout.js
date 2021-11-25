@@ -1,6 +1,5 @@
-
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 const Layout = (props) => {
   return (
     <div>
@@ -13,12 +12,10 @@ const Layout = (props) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <link rel='icon' href='images/favicon.png' />
+        <link rel="icon" href="images/favicon.png" />
       </Head>
-      <div>
-        {props.children}
-      </div>
-</div>
-  )
-}
+      <div>{props.children}</div>
+    </div>
+  );
+};
 export default Layout;
