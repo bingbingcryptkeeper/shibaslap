@@ -22,7 +22,7 @@ const Index = () => {
         iframe: "flex",
         hideSelectionFrom: false,
         hideSelectionTo: true,
-        theme: "dark",
+        theme: "light",
         background: "#FFFFFF",
         injectTokens: {
           bsc: [

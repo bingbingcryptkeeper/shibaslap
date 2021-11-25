@@ -18,7 +18,11 @@ h1, h2, p, a {
 }
 
 .pubic-rubic {
+  margin-top: 40px;}
+
+#rubic-widget-root {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin: 20px;
+  width: 100%;
 }
