@@ -11,12 +11,14 @@ class Hero extends React.Component {
 
 
   downMousy = (e) => {
+    e.preventDefault()
     this.setState({ slapper: 'shibaslaplogoslapped' })
     const shibSlap = new Audio('/sounds/baffe.wav')
     shibSlap.play()
   }
 
   upMousy = (e) => {
+    e.preventDefault()
     this.setState({ slapper: 'shibaslaplogo' })
   }
   
