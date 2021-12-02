@@ -49,6 +49,9 @@ export default class Header extends React.Component {
                 <NavLink href="https://poocoin.app/tokens/0xbc30d59aff36d7ade2faf8152fb1a66757410fee" target="_blank">PooCoin</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="https://charts.bogged.finance/0xBC30d59aFF36D7AdE2faF8152fb1a66757410fEE" target="_blank">Bogged Finance</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="https://pancakeswap.finance/swap?outputCurrency=0xBC30d59aFF36D7AdE2faF8152fb1a66757410fEE" target="_blank">PancakeSwap</NavLink>
               </NavItem>
               <NavItem>
