@@ -7,6 +7,7 @@ import '../styles/tokenomics.css';
 import '../styles/reflections.css';
 import '../styles/community.css';
 import '../styles/docs.css'
+import '../styles/memes.css'
 
 function ShibaSwap({ Component, pageProps }) {
   return <Component {...pageProps} />

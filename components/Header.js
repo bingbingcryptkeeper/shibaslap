@@ -10,8 +10,6 @@ import {
   NavItem,
   NavLink,
    } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReddit } from '@fortawesome/free-brands-svg-icons';
 
 export default class Header extends React.Component {
   constructor(props) {

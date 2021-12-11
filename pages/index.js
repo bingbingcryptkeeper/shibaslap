@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -8,9 +8,20 @@ import Reflections from "../components/Reflection";
 import Script from 'next/script'
 import Community from "../components/Community";
 import Docs from "../components/Docs";
+import Memes from '../components/Memes';
+import { getMemes } from '../lib/api';
 
+const randomIntFromInterval = (max) => {
+  return Math.floor(Math.random() * max);
+}
 
-const Index = () => {
+const Index = ( props ) => {
+  const [memes, setMemes] =  useState(props.data[0].link);
+
+  const handleClick = () => {
+    setMemes(props.data[randomIntFromInterval(props.data.length)].link);
+  }
+
   useEffect(() => {
     if (process.browser) {
       var configuration = {
@@ -43,11 +54,12 @@ const Index = () => {
     <Layout pageTitle="Shiba Slap">
       <Header />
       <Hero />
+      <Memes memes={memes} handleClick={handleClick} />
       <section className="pubic-rubic">
         <div id="rubic-widget-root"></div>
       </section>
       <Tokenomics />
-      <Reflections />
+      {/* <Reflections /> */}
       <Community />
       <Docs />
       <Footer />
@@ -70,3 +82,11 @@ const Index = () => {
   )
 }
 export default Index;
+export async function getServerSideProps() {
+  const data = await getMemes();
+  return {
+    props: {
+      data,
+    },
+  };
+}

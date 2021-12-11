@@ -63,8 +63,8 @@ class Community extends React.Component {
             <div className="community-lower">
               {this.communityLower.map((member, key) => (
                 <div key={key} className="community-card pulse">
-                  <div class="card-trip">
-                    <div class="card-avatar">
+                  <div className="card-trip">
+                    <div className="card-avatar">
                       <Image
                         className="shib-avatar"
                         src={`/images/${member.avatar}`} // Route of the image file
@@ -73,7 +73,7 @@ class Community extends React.Component {
                         alt="Shib Crypto Slap DogeBonk"
                       />
                     </div>
-                    <div class="card-trip-infos">
+                    <div className="card-trip-infos">
                       <div>
                         <h5 className="text-dark font-weight-normal pt-1 mb-4">
                           {member.name}

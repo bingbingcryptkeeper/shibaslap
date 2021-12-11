@@ -10,6 +10,9 @@
 
 module.exports = {
   reactStrictMode: true,
+  images: {
+    domains: ["i.imgur.com"],
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.pdf$/,
