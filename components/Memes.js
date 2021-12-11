@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { getMemes } from "../lib/api";
 import Image from "next/image";
-import useSWR from "swr";
 
 const Memes = ({ memes, handleClick }) => {
   return (

@@ -59,7 +59,7 @@ const Index = ( props ) => {
         <div id="rubic-widget-root"></div>
       </section>
       <Tokenomics />
-      {/* <Reflections /> */}
+      <Reflections />
       <Community />
       <Docs />
       <Footer />
