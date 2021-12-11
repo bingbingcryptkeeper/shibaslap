@@ -15,7 +15,7 @@ const randomIntFromInterval = (max) => {
 }
 
 const Index = ( props ) => {
-  const [memes, setMemes] =  useState(props.data[0].link);
+  const [memes, setMemes] =  useState('/images/ogmeme.gif');
 
   const handleClick = () => {
     setMemes(props.data[randomIntFromInterval(props.data.length)].link);
