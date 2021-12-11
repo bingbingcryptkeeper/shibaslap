@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Tokenomics from "../components/Tokenomics";
 import Footer from "../components/footer";
-import Reflections from "../components/Reflection";
 import Script from 'next/script'
 import Community from "../components/Community";
 import Docs from "../components/Docs";
@@ -59,7 +58,6 @@ const Index = ( props ) => {
         <div id="rubic-widget-root"></div>
       </section>
       <Tokenomics />
-      <Reflections />
       <Community />
       <Docs />
       <Footer />

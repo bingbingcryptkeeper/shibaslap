@@ -9,6 +9,7 @@ class Community extends React.Component {
   }
 
   communityUpper = [
+    { name: "Captain Obviouslee", avatar: "captainobviouslee.jpg", desc: "Content Creation/Outreach", telegram: "@CaptainMoreslap" },
     { name: "Cal", avatar: "calavatar.jpg", desc: "Dev & Marketing", telegram: "@Slapmaster" },
     { name: "Josh", avatar: "joshavatar.jpg", desc: "Dev & Marketing", telegram: "@Thisisnotatestmeme" },
   ];
@@ -34,7 +35,7 @@ class Community extends React.Component {
             <h1>Community Slappers</h1>
           </div>
           <div className="community-wrapper">
-            <div className="community-upper">
+            <div className="community-lower">
               {this.communityUpper.map((member, key) => (
                 <div key={key} className="community-card pulse">
                   <div class="card-trip">

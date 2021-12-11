@@ -24,6 +24,8 @@ div.container {
   padding: 10px 20px;
   margin: auto;
   border-radius: 20px;
+  height: 312px;
+  width: 225px;
 }
 
 .shib-avatar {
