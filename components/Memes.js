@@ -16,9 +16,7 @@ const Memes = ({ memes, handleClick }) => {
             width={500} // Desired size with correct aspect ratio
             alt="Shib Crypto Slap DogeBonk Make Money Crypto"
           />
-          <figcaption>
-            touch the meme to get more meme
-          </figcaption>
+          <figcaption>touch the meme to get more meme</figcaption>
         </div>
       </Container>
     </section>

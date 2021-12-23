@@ -31,10 +31,10 @@ export default class Header extends React.Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">
             <Image
-              src="/images/slaplogo1.png" // Route of the image file
+              src="/images/updatedcoinslap.jpg" // Route of the image file
               height={144} // Desired size with correct aspect ratio
               width={144} // Desired size with correct aspect ratio
-              alt="Your Name"
+              alt="shiba slap dogebonk crypto how to get rich"
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

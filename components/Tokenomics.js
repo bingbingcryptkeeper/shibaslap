@@ -23,7 +23,7 @@ const Tokenomics = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <Image 
-                src="/images/slaplogo1.png" // Route of the image file
+                src="/images/updatedcoinslap.jpg" // Route of the image file
                 height={300} // Desired size with correct aspect ratio
                 width={300} // Desired size with correct aspect ratio
                 alt="Shib Crypto Slap DogeBonk"
