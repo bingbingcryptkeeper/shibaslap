@@ -47,6 +47,13 @@ class Hero extends React.Component {
             <Col lg={6}>
               <div className="mt-5 mt-lg-0" >
               <Image
+                // className={`shib-slap`}
+                src={`/images/transslapper.png`} // Route of the image file
+                height={546} // Desired size with correct aspect ratio
+                width={546} // Desired size with correct aspect ratio
+                alt="Shib Crypto Slap DogeBonk"
+              />
+              {/* <Image
                 className={`shib-slap ${slapper ? 'slapper' : ''}`}
                 onMouseDown={this.downMousy}
                 onMouseUp={this.upMousy}
@@ -57,7 +64,7 @@ class Hero extends React.Component {
                 height={546} // Desired size with correct aspect ratio
                 width={546} // Desired size with correct aspect ratio
                 alt="Shib Crypto Slap DogeBonk"
-              />
+              /> */}
               </div>
             </Col>
           </Row>
